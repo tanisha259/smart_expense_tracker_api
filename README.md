@@ -2,7 +2,7 @@
 
 A small REST API for tracking personal expenses, built with **FastAPI** and
 **Python**. Data is stored as JSON on disk (`data/expenses.json`), loaded into
-memory on startup — no database required.
+memory on startup no database required.
 
 ## Features
 
@@ -79,7 +79,7 @@ curl -X DELETE http://127.0.0.1:8000/expenses/1
 ## Project structure
 
 ```
-your-repo/
+my-repo/
   README.md
   AI_NOTES.md
   requirements.txt
